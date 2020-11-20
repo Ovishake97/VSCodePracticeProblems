@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+}
+.headerContainer,.footerContainer{
+    align-content: center;
+    background: yellowgreen;
+    height: 20vh;
+    padding:10px;
+}
+.navContainer{
+    background: #D7E8D4;
+    flex: 1;
+    padding:1em;
+    width: 30%;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.mainItems{
+    display:flex;
+    flex-direction: row;
+}
+.mainContentItem{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    min-height: 60vh;
+    padding:1em;
+}
+.asideBar{
+    background: beige;
+    flex: 1;
+    padding:1em;
+}
